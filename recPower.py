@@ -4,7 +4,7 @@ def recPower(a,b):
     else:
         return a * recPower(a,b-1)
 
-r = recPower(3,2)
+r = recPower(3,4)
 print(r)
 
 # Esta função calcula a potência de base "a" e expoente "b" de maneira recursiva.
